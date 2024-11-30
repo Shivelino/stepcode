@@ -6,7 +6,8 @@
 find_program(RE2C_EXECUTABLE re2c DOC "path to the re2c executable")
 mark_as_advanced(RE2C_EXECUTABLE)
 
-if(RE2C_EXECUTABLE)
+# if(RE2C_EXECUTABLE)
+if(FALSE)
 
   execute_process(COMMAND ${RE2C_EXECUTABLE} -v
     OUTPUT_VARIABLE RE2C_version_output

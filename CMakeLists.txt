@@ -60,6 +60,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Path
+set(SC_ROOT "${CMAKE_CURRENT_LIST_DIR}")
+set(SC_SOURCE_DIR "${SC_ROOT}")
+
 # CMake derives much of its functionality from modules, typically
 # stored in one directory - let CMake know where to find them.
 set(SC_CMAKE_DIR "${SC_SOURCE_DIR}/cmake")

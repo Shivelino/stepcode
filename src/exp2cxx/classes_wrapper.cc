@@ -82,7 +82,7 @@ void print_file_header( FILES * files ) {
     fprintf( files->incall, "\n#include \"clstepcore/ExpDict.h\"\n" );
     fprintf( files->incall, "\n#include \"clstepcore/STEPattribute.h\"\n" );
 
-    fprintf( files->incall, "\n#include <Sdaiclasses.h>\n" );
+    fprintf( files->incall, "\n#include \"Sdaiclasses.h\"\n" );
 
     fprintf( files->incall, "extern SC_%s_EXPORT void SchemaInit (Registry &);\n", "SCHEMA" );
     fprintf( files->incall, "extern SC_%s_EXPORT void InitSchemasAndEnts (Registry &);\n", "SCHEMA" );
